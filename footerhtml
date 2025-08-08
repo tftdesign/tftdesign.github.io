@@ -1,0 +1,102 @@
+<section class="black-bg contact-us" id="contact">
+      <div class="container">
+        <div class="row flex-wrap justify-space-btwn">
+          <div class="col-5">
+            <h2 class="bold-heading">
+              <span>Engage</span>
+              <span>With us</span>
+            </h2>
+            <strong class="highlight">To make a few beautiful and meaningful apps.</strong>
+          </div>
+          <div class="col-6">
+            <div class="form-wrapper">
+              <form id="contact-form">
+                <div class="field-wrap">
+                  <label for="">Full Name</label>
+                  <input type="text" name="fullname" required />
+                </div>
+                <div class="field-wrap">
+                  <label for="">Email</label>
+                  <input type="email" name="email" required />
+                </div>
+                <div class="field-wrap">
+                  <label for="">Phone</label>
+                  <input type="phone" name="phone" />
+                </div>
+                <div class="field-wrap">
+                  <label for="">Message</label>
+                  <textarea name="message" id="" cols="30" rows="5" required></textarea>
+                </div>
+				        <div class="alert"><span></span></div>
+                <div>
+                  <button type="submit" class="btn blue"><span>Send message <i class="far fa-angle-right"></i></span></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- footer-->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row flex-wrap">
+        <div class="footer-grid">
+          <div class="address">
+            
+            <h4>Contact Us:</h4>
+            <div class="contact-grid">
+              <div>Skype:</div>
+              <a href="skype:sales.tft@outlook.com?chat">sales.tft@outlook.com</a>
+              <div>Email:</div>
+              <a href="mailto:info@tftus.com">info@tftus.comaa</a>
+
+            </div>
+
+          </div>
+          <ul class="about">
+            <li>About</li>
+            <li><a target="_blank" href="https://www.tftus.com/about-us">Who we are</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/software-testing">Services</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/blog/">Blogs</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/portfolio/">Portfolio</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/career/">Careers</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/privacy-policy">Privacy Policy</a></li>
+          </ul>
+          <ul class="development">
+            <li>Development</li>
+            <!--<li><a href="#">Software Development</a></li>-->
+            <li><a target="_blank" href="https://www.tftus.com/web-development">Web Development</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/ai-development">AI Development</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/blockchain-technology-solution">Blockchain Development</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/internet-of-things">IoT Development</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/mobile-app-development">Mobile App Development</a></li>
+            <!--<li><a href="#">AR/VR Development</a></li>-->
+          </ul>
+          <ul class="testing">
+            <li>Testing</li>
+            <li><a target="_blank" href="https://www.tftus.com/automation-testing">Automation Testing</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/manual-testing">Manual Testing</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/security-testing">Security Testing</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/accessibility-testing">Accessibility Testing</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/functional-testing">Functional Testing</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/localization-testing">Localization Testing</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/mobile-app-testing">Mobile Application Testing</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/performance-testing">Performance Testing</a></li>
+            <li><a target="_blank" href="https://www.tftus.com/usability-testing">Usability Testing</a></li>
+          </ul>
+        </div>
+			</div>
+			<div class="social-icons text-right">
+          <a href="http://www.facebook.com/pages/Think-Future-Technologies/182310907095" target="_blank"
+            rel="nofollow"><i class="fab fa-facebook-f socialIcon"></i></a>
+          <a href="http://www.linkedin.com/companies/think-future-technologies" target="_blank" rel="nofollow"><i
+              class="fab fa-linkedin-in socialIcon"></i></a>
+          <a href="http://twitter.com/ThinkFutureTech" target="_blank" rel="nofollow"><i
+              class="fab fa-twitter socialIcon"></i></a>
+          <a href="https://www.instagram.com/tft_us/" target="_blank" rel="nofollow"><i
+              class="fab fa-instagram socialIcon"></i></a>
+        </div>
+    </div>
+  </footer>

@@ -1,0 +1,311 @@
+@media only screen and (max-width:1366px) {}
+
+@media only screen and (max-width:1279px) {}
+
+@media only screen and (max-width:1190px) {}
+
+@media only screen and (max-width:991px) {
+	section {
+		min-height: initial;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.logo {
+		padding: 10px 5px;
+	}
+	.main-header {
+		position: fixed;
+		z-index: 99;
+		background-color: #fff;
+		top: 0;
+		left: 0;
+		width: 100%;
+
+		.main-nav {
+			position: fixed;
+			bottom: 0;
+			width: 100%;
+			background-color: #111;
+			left: 0;
+			ul {
+				justify-content: space-between;
+				overflow-x: auto;
+				overflow-y: hidden;
+			}
+			li {
+				padding: 0 5px;
+				white-space: nowrap;
+				a {
+					font-size: 13px;
+					padding: 15px 5px;
+					color: #fff;
+				}
+				&.active {
+					a {
+						color: #0FABFF;
+					}
+				}
+			}
+		}
+	}
+	.bold-heading {
+		font-size: 46px;
+	}
+	.hero-section {
+		.row {
+			flex-direction: column-reverse;
+			align-items: flex-start;
+		}
+		.image-wrap {
+			width: 100%;
+			position: static;
+		}
+		.btn-wrap {
+			a {
+				margin: 15px 0;
+			}
+		}
+	}
+	.inview-el.visible.animate .about-box-wrap {
+		width: 100%;
+	}
+	.approach {
+		.image-wrap {
+			position: static;
+			margin-top: 0;
+			padding-top: 40px;
+		}
+	}
+	.steps-wrap {
+		ol {
+			li {
+				flex-direction: column;
+				margin-left: 0 !important;
+				padding: 30px 0;
+				h4 {
+					width: 220px;
+					height: 250px;
+					padding: 30px;
+					font-size: 26px;
+				}
+				&:before {
+					font-size: 160px;
+				}
+				p {
+					margin: 0;
+					text-align: center;
+				}
+			}
+		}
+	}
+
+	.why-us {
+		.list {
+			padding-left: 30px;
+		}
+		.bubble-blank {
+			&:after {
+				width: 60px;
+				height: 60px;
+				top: 50%;
+				left: 50%;
+			}
+			span {
+				width: 40px;
+				height: 40px;
+				top: 0%;
+				left: 0%;
+			}
+			&:before {
+				width: 15px;
+				height: 15px;
+				top: -50%;
+				left: -20%;
+			}
+		}
+		.center-el {
+			width: 200px;
+			height: 200px;
+			margin-left: 120px;
+			.alpha {
+				font-size: 70px;
+			}
+			.logo {
+				transform: scale(1.5);
+			}
+		}
+	}
+	.footer-section {
+		padding-bottom: 80px;
+		.social-icons {
+			text-align: left;
+			display: flex;
+			justify-content: space-between;
+			padding-top: 30px;
+		}
+		.footer-grid {
+			grid-template-columns: 100%;
+			grid-column-gap: 0%;
+			ul {
+				padding: 15px 0;
+			}
+		}
+	}
+	.about-us {
+		.row {
+			flex-direction: column-reverse;
+		}
+	}
+	.about-box {
+		.top {
+			font-size: 40px;
+		}
+		.inner-box {
+			strong {
+				font-size: 100px;
+			}
+			span {
+				font-size: 200px;
+			}
+		}
+	}
+
+	.services {
+		.image-wrap {
+			width: 100%;
+			.service_el {
+				width: 130%;
+			}
+		}
+		.bold-heading.inview-el span .extra-text {
+			position: static;
+		}
+	}
+
+	.services-wrap {
+		.item-wrap {
+			.item {
+				height: auto;
+				flex-direction: column;
+				.content-hidden {
+					position: static;
+					transform: translate(0);
+					opacity: 1;
+					padding: 0;
+					p {
+						font-size: 14px;
+					}
+				}
+				&:hover {
+					pointer-events: none;
+					strong {
+						opacity: 1;
+						font-size: 36px;
+						font-weight: 400;
+						color: initial;
+						transform: none;
+					}
+				}
+			}
+		}
+	}
+
+	.contact-us {
+		.form-wrapper {
+			padding-top: 40px;
+		}
+	}
+
+	.portfolio-section {
+		.title-wrap {
+			.title {
+				font-size: 40px;
+			}
+		}
+		.portfolio-list-wrapper {
+			.work-wrap {
+				padding: 0;
+			}
+		}
+		.work-wrap {
+			flex-direction: column;
+			height: auto;
+			.image-wrap, .content-wrap {
+				width: 100%;
+			}
+			.image-wrap {
+				padding: 20px 0;
+			}
+			p {
+				font-size: 16px;
+			}
+		}
+	}
+	.portfolio-wrap {
+		.row {
+			flex-direction: column;
+		}
+		.left-wrap {
+			padding: 0;
+			.image-wrap {
+				width: 160px;
+			}
+			.content-wrap {
+				.title {
+					font-size: 30px;
+					transform: none !important;
+				}
+			}
+		}
+		.right-wrap {
+			.sticky {
+				margin-left: 20px;
+			}
+		}
+	}
+	.web-app-prototype, .branding-device {
+		.title {
+			font-size: 40px;
+		}
+		.wrapper {
+			overflow: hidden;
+			.phone {
+				height: 100%;
+				img {
+					width: auto;
+					height: 100%;
+				}
+			}
+		}
+	}
+	.style-guide {
+		.item {
+			flex-direction: column;
+			padding: 30px 20px;
+		}
+	}
+
+	.gallery {
+		padding-top: 120px;
+		.more-info {
+			margin: 0;
+			overflow: hidden;
+			flex-direction: column-reverse;
+			figure {
+				transform: none !important;
+			}
+		}
+	}
+	.highlight-title {
+		top: 0px;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		font-size: 40px;
+		transform: none !important;
+		h3 {
+			transform: none !important;
+		}
+	}
+}
