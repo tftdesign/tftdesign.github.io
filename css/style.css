@@ -732,6 +732,18 @@ section {
   display: block;
   color: #fff;
 }
+.col-6.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-6.form-wrapper a.contact-btn {
+  background: linear-gradient(120deg, #56c4ff, #0982c6);
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff !important;
+}
 
 .form-wrapper .field-wrap {
   width: 100%;
